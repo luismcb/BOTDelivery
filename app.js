@@ -422,5 +422,6 @@ bot.dialog('busqueda',[(session)=>{
 
 
 bot.dialog('consulta',(session)=>{
-   session.send('CONSULTA');
+   session.send('Aun esta en construccion :(');
+   session.endDialog();
 });
