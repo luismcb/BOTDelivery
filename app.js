@@ -422,6 +422,6 @@ bot.dialog('busqueda',[(session)=>{
 
 
 bot.dialog('consulta',(session)=>{
-   session.send('Las preguntas no estan implementadas :(');
+   session.send('Las preguntas no estan implementadas aun :(');
    session.endDialog();
 });
